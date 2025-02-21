@@ -23,10 +23,7 @@ const displaySingleDrink = (data) => {
   const drinkIngredients = getElement('.drink-ingredients');
   drinkImageDOM.src = drinkImage;
   drinkNameDOM.textContent = drinkName;
-<<<<<<< HEAD
   document.title = drinkName;
-=======
->>>>>>> eeb72382317616c267f05c1280cdedfd2047f932
   drinkDescription.textContent = drinkInstructions;
   drinkIngredients.innerHTML = list
     .map((ingredient) => {
